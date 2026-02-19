@@ -32,7 +32,7 @@ COPY root/etc/apt/ /etc/apt
 COPY root/usr/share/keyrings /usr/share/keyrings
 RUN apt update
 
-# nv-l4t-usb-device-mode
+# nv-l4t-usb-device-mode-
 RUN apt install -y bridge-utils
 
 # https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/updating_jetson_and_host.html
